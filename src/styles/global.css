@@ -1,0 +1,18 @@
+:root {
+  --background: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--background);  
+}
